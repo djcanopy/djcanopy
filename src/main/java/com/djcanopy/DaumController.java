@@ -11,7 +11,7 @@ public class DaumController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView start() {
 
-//		return new ModelAndView("redirect:http://www.djcanopy.kr");
-		return new ModelAndView("index");
+		return new ModelAndView("redirect:http://www.djcanopy.kr");
+//		return new ModelAndView("index");
 	}
 }
