@@ -2,13 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	
+
 	<groupId>com.djcanopy</groupId>
 	<artifactId>djcanopy</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<!-- name 명명 규칙에 따라 변경. 예: <팀이름>-<프로젝트이름> or <서비스이름>-<프로젝트이름> -->
 	<name>com.djcanopy-djcanopy-web</name>
 
 	<properties>
@@ -142,7 +141,6 @@
 
 	<build>
 		<plugins>
-			<!-- 컴파일러 설정 -->
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
@@ -155,7 +153,6 @@
 		<finalName>${project.artifactId}</finalName>
 	</build>
 
-	<!-- 저장소 설정 - 팀 저장소로 변경해서 사용하세요 -->
 	<repositories>
 		<repository>
 			<id>daum-public</id>
@@ -180,19 +177,4 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-
-	<!-- 배포 설정 - 팀 저장소로 변경해서 사용하세요 -->
-	<distributionManagement>
-		<repository>
-			<id>daum</id>
-			<name>Daum Repository</name>
-			<url>http://maven.daumcorp.com/content/repositories/daum</url>
-		</repository>
-
-		<snapshotRepository>
-			<id>daum-snapshots</id>
-			<name>Daum Snapshot Repository</name>
-			<url>http://maven.daumcorp.com/content/repositories/daum-snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
 </project>
