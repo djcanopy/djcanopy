@@ -14,6 +14,10 @@
 body {
 	padding-top: 60px;
 	padding-bottom: 40px;
+	color: #333;
+	font-family: "돋움", dotum, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
 }
 
 section {
@@ -87,7 +91,7 @@ section {
 					<h3>전화로 문의해 주세요!</h3>
 					<div class="span2">
 						<h3>휴대폰</h3>
-						<h5>011-2601-8643</h5>
+						<h5>011-261-8643</h5>
 					</div>
 					<div class="span2">
 						<h3>전화</h3>
@@ -105,22 +109,32 @@ section {
 		<section id="jobs">
 			<div class="page-header">
 				<h1>
-					주요업무 <small>천막관련 아래품목들을 대여해주고 있습니다.</small>
+					업무소개 <small>천막관련물품 대여/설치를 하고 있습니다.</small>
 				</h1>
 			</div>
 
 			<div class="row">
 				<div class="span4">
 					<h2>행사용 천막</h2>
-					<p></p>
+					<p>
+						<img src="/img/canopy.png" />
+					</p>
 				</div>
+			</div>
+			<div class="row">
 				<div class="span4">
-					<h2>캐노피</h2>
-					<p></p>
+					<h2>어닝</h2>
+					<p>
+						<img src="/img/erning.png" />
+					</p>
 				</div>
+			</div>
+			<div class="row">
 				<div class="span4">
 					<h2>파라솔, 테이블, 의자</h2>
-					<p></p>
+					<p>
+						<img src="/img/char.png" />
+					</p>
 				</div>
 			</div>
 		</section>
@@ -140,7 +154,7 @@ section {
 
 		<footer>
 			<p>&copy; 안산대진천막기업. | 대표자:김종환 | 사업자등록번호:14322-35973</p>
-			<p>주소:경기도 안산시 단원구 원곡동 997-3번지</p>
+			<p>주소:경기도 안산시 단원구 원곡동 997-3번지 | 전화번호:031-492-8933</p>
 		</footer>
 	</div>
 	<!-- /container -->
