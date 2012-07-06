@@ -21,7 +21,7 @@ body {
 }
 
 section {
-	padding-top: 60px;
+	padding-top: 20px;
 }
 </style>
 <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
@@ -67,7 +67,7 @@ section {
 		<!-- Main hero unit for a primary marketing message or call to action -->
 		<div class="hero-unit">
 			<h1>안녕하세요! 안산대진천막 입니다.</h1>
-			<p>최선을 다해 모시겠습니다~^^</p>
+			<p></p>
 			<div class="row-fluid">
 				<div class="span8">
 					<object type='application/x-shockwave-flash' id='WevghuYC7os$'
@@ -88,18 +88,18 @@ section {
 					</object>
 				</div>
 				<div class="span4 offset2">
-					<h3>전화로 문의해 주세요!</h3>
+					<h2>최선을 다해 모시겠습니다~^^ 전화로 문의해 주세요!</h2>
 					<div class="span2">
 						<h3>휴대폰</h3>
-						<h5>011-261-8643</h5>
+						<h2>011-261-8643</h2>
 					</div>
 					<div class="span2">
 						<h3>전화</h3>
-						<h5>031-492-8933</h5>
+						<h2>031-492-8933</h2>
 					</div>
 					<div class="span2">
 						<h3>팩스</h3>
-						<h5>031-492-8935</h5>
+						<h2>031-492-8935</h2>
 					</div>
 				</div>
 			</div>
@@ -109,7 +109,7 @@ section {
 		<section id="jobs">
 			<div class="page-header">
 				<h1>
-					업무소개 <small>천막관련물품 대여/설치를 하고 있습니다.</small>
+					취급품목 <small>각종 천막 대여, 제작, 설치, 판매를 하고 있습니다.</small>
 				</h1>
 			</div>
 
